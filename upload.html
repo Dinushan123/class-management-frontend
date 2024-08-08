@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload Cash Slip</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Upload Cash Slip</h1>
+    <p id="info"></p>
+    <form action="http://localhost:3000/upload" method="POST" enctype="multipart/form-data">
+        <label for="cash-slip">Upload Cash Slip:</label>
+        <input type="file" id="cash-slip" name="cash-slip">
+        <button type="submit">Upload</button>
+    </form>
+    <h2>Join WhatsApp Group</h2>
+    <a id="whatsapp-link" href="#">Join Group</a>
+
+    <script src="script.js"></script>
+</body>
+</html>

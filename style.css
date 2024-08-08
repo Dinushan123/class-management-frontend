@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.grade-btn, .month-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 20px;
+    text-decoration: none;
+    margin: 10px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.grade-btn:hover, .month-btn:hover {
+    background-color: #45a049;
+}
+
+form {
+    margin: 20px;
+}
+
+#whatsapp-link {
+    background-color: #25D366;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+#whatsapp-link:hover {
+    background-color: #20c354;
+}

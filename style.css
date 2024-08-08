@@ -1,9 +1,29 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f8ff;
+    background-color: #2b2f32;
     text-align: center;
 }
-
+nav{
+    background-color: #699e9665;
+    border-radius: 40px;
+}
+.nav1{
+    display:inline;
+    padding: 10px;
+}
+nav ul li{
+    display:inline-block;
+    font-size: 150%;
+    font-family:'Times New Roman', Times, serif;
+    margin-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+/* linked item display */
+nav ul li a{
+    color: rgb(241, 234, 234);
+    display:contents;
+}
 h1 {
     color: #333;
 }
@@ -44,4 +64,15 @@ form {
 
 #whatsapp-link:hover {
     background-color: #20c354;
+}
+/* fotter custumization */
+footer{
+    padding: 2px;
+    background-color: rgb(76, 97, 88);
+    color: #000000;
+    text-align: center;
+    position:fixed;
+    bottom: 0%;
+    left: 0%;
+    width: 100%;
 }
